@@ -11,8 +11,7 @@
 Circulating supply: 100M  
 LP Locked: 75%  
 Dev Wallet: None  
-Future: OnlyFans AI channel is coming...
-
+🔮 Future: She's building her own realm. Stay tuned...
 ---
 
 **Early holders will remember this moment.**
