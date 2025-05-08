@@ -1,65 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>SUXXXI 🖤</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
       background: #0d0d0d;
       color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
     }
+
     .logo {
-      width: 110px;
-      height: 110px;
-      object-fit: cover;
+      margin: 30px auto 10px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
-      border: 2px solid #fff;
-      margin-bottom: 10px;
+      object-fit: cover;
     }
+
     h1 {
-      font-size: 2em;
-      margin: 5px 0;
+      font-size: 3em;
+      margin: 0;
     }
+
     p {
-      font-size: 0.95em;
+      font-size: 1.1em;
       color: #ccc;
-      margin: 5px 0 20px;
-      line-height: 1.4em;
+      margin-top: 10px;
+      margin-bottom: 30px;
     }
+
     .buttons a {
       display: inline-block;
-      margin: 6px;
-      padding: 10px 20px;
-      font-size: 0.9em;
-      color: #fff;
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 1em;
       border: 2px solid #fff;
-      border-radius: 6px;
+      color: #fff;
       text-decoration: none;
-      transition: 0.3s ease;
+      border-radius: 8px;
+      transition: all 0.3s;
     }
+
     .buttons a:hover {
       background: #fff;
       color: #000;
     }
+
+    .cs-widget-container {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+    }
   </style>
 </head>
 <body>
-  <img src="logo.jpg" alt="SUXXXI Logo" class="logo" />
+  <img src="logo.jpg" alt="SUXXXI Logo" class="logo">
+
   <h1>SUXXXI 🖤</h1>
-  <p>No tax. Locked LP.<br>She’s coming. You’ll know her face.<br>100M supply. No dev wallet.</p>
+  <p>No tax. Locked LP. She’s coming. You’ll know her face.<br>100M total supply. No dev wallet.</p>
+
   <div class="buttons">
     <a href="https://pancakeswap.finance/swap?outputCurrency=0x71fCAD48B051bd613ff7b7b7951d85884a25c6f4">Buy $SUXXXI</a>
     <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0x6d6391d1bd1fc50f01c7ccdd5d6ac3181d4b5419">View Chart</a>
     <a href="https://t.me/suxxxi_official">Telegram</a>
   </div>
+
+  <div class="cs-widget-container">
+    <div id="cs-widget" data-id="81558" data-name="SUXXXI"></div>
+  </div>
+
+  <script src="https://coinsniper.net/widget.min.js"></script>
 </body>
 </html>
